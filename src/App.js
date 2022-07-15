@@ -5,10 +5,11 @@ import Nav from './components/Nav/Nav.js'
 import axios from 'axios'
 import {useState, useEffect} from 'react'
 import React from 'react'
-import {Route, Routes, Link} from 'react-router-dom'
+import {Route, Routes} from 'react-router-dom'
 import Login from './components/Login/Login.js'
 import ItemDetail from './components/ItemDetail/ItemDetail.js'
 import SignUp from './components/SignUp/SignUp.js'
+import Explore from './components/Explore/Explore.js'
 
 function App() {
 
@@ -27,23 +28,13 @@ function App() {
   
   return (
     <div className="App">
-          <Nav/>
-          <h1>WELCOME</h1>
-          {items.map((item) => {
-            return(
-              <div>
-                <h1>{item.name}</h1>
-                <img src={item.photo_1_url}/>
-                <h3>${item.price}.00</h3>
-              </div>  
-            )
-          })}
+        <Nav />
       <main>
           <Routes>
-            <Route path='/' element={<App/>}/>
-            <Route path='item/:id' element={<ItemDetail/>}/>
-            <Route path='login' element={<Login/>}/>
-            <Route/>
+            <Route path='/' element={<Explore items={items}/>}/>
+            <Route path='/item/:id' element={<ItemDetail/>}/>
+            <Route path='/Login' element={<Login/>}/>
+            <Route path='/SignUp' element={<SignUp/>}/>
           </Routes>
       </main>  
     </div>

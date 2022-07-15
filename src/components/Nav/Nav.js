@@ -1,6 +1,7 @@
 import './Nav.css'
 import 'bulma/css/bulma.css'
 import { FaTshirt, FaShoppingCart} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
     return (
@@ -36,12 +37,17 @@ const Nav = () => {
                     <div className="navbar-end">
                         <div className="navbar-item">
                             <div className="buttons">
-                                <a className="button is-light">
-                                    <strong>Sign up</strong>
-                                </a>
-                                <a className="button is-light">
-                                    Log in
-                                </a>
+                                <Link to='/SignUp'>
+                                    <a className="button is-light">
+                                        <strong>Sign up</strong>
+                                    </a>
+                                </Link>
+                                <Link to='/Login'>
+                                    <a className="button is-light">
+                                        Log in
+                                    </a>
+                                </Link>
+  
                                 <a>
                                     <FaShoppingCart/>
                                 </a>
