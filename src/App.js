@@ -10,6 +10,8 @@ import Login from './components/Login/Login.js'
 import ItemDetail from './components/ItemDetail/ItemDetail.js'
 import SignUp from './components/SignUp/SignUp.js'
 import Explore from './components/Explore/Explore.js'
+import PostT from './components/PostTee/PostT';
+import Comment from './components/Comment/Comment';
 
 function App() {
 
@@ -32,9 +34,11 @@ function App() {
       <main>
           <Routes>
             <Route path='/' element={<Explore items={items}/>}/>
-            <Route path='/item/:id' element={<ItemDetail/>}/>
-            <Route path='/Login' element={<Login/>}/>
-            <Route path='/SignUp' element={<SignUp/>}/>
+            <Route path='/item/:id' element={<ItemDetail  />}/>
+            <Route path='/login' element={<Login/>}/>
+            <Route path='/signUp' element={<SignUp/>}/>
+            <Route path='/postT' element={<PostT/>}/>
+            <Route path='/comment/:id' element={<Comment/>}/>
           </Routes>
       </main>  
     </div>

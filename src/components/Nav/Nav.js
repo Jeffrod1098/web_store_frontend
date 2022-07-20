@@ -10,47 +10,38 @@ const Nav = () => {
                 <div className='navbar-brand'>
                     <a href='/' className='navbar-item'>
                     <FaTshirt/>
-                    TEE-CLUB
+                    T-CLUB
                     </a>
 
-                    {/* <a class="navbar-item">
-                    Explore
-                    </a>
+                    <div class="navbar-item">
+                    <Link to='/postT'>
+                    POST A T
+                    </Link>
+                    </div>
 
-                    <a class="navbar-item">
-                    Documentation
-                    </a> */}
 
-                    <a
-                    role='button'
-                    className={'navbar-burger burger'}
-                    aria-label='menu'
-                    aria-expanded='false'
-                    data-target='navbarBasicExample'
-                    >
-                    <span aria-hidden='true'></span>
-                    <span aria-hidden='true'></span>
-                    <span aria-hidden='true'></span>
-                    </a>
+
                 </div>
                 <div id='navbarBasicExample' className='navbar-menu'>
                     <div className="navbar-end">
                         <div className="navbar-item">
                             <div className="buttons">
-                                <Link to='/SignUp'>
-                                    <a className="button is-light">
+                                <div className='button is-light'>
+                                <Link to='/signUp'>
                                         <strong>Sign up</strong>
-                                    </a>
                                 </Link>
-                                <Link to='/Login'>
-                                    <a className="button is-light">
+                                </div>
+
+
+                                    <div className="button is-light">
+                                    <Link to='/login'>
                                         Log in
-                                    </a>
                                 </Link>
+                                    </div>
   
-                                <a>
+                                <div>
                                     <FaShoppingCart/>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
