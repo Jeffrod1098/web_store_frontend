@@ -39,7 +39,7 @@ const SignUp = () => {
                 onSubmit={submit}>
 
                 <div className="field">
-                    <label className="label">Name</label>
+                    <label className="label"> Your Name</label>
                     <div className="control">
                     <input className="input" name="name" type="text" placeholder="Name" required onChange={e => setName(e.target.value)} />
                     </div>
