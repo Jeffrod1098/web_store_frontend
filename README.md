@@ -1,71 +1,25 @@
-# Getting Started with Create React App
+# Project Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This a mock webstore/marketplace, that let's artist post up a design of their T-shirt, and let's users, post comments to share their opinion on the designs of the posted t-shirts. With room to then add these t-shirts to their cart and purchase them.
 
-## Available Scripts
+## Wire Frame
+<img width="1094" alt="Screen Shot 2022-07-12 at 10 24 24 AM" src="https://user-images.githubusercontent.com/102834324/191054094-f67abb0f-fa91-4f2f-9bd3-9a51963c1e4e.png">
+<img width="1093" alt="Screen Shot 2022-07-12 at 10 31 49 AM" src="https://user-images.githubusercontent.com/102834324/191054139-72291d74-7eec-44f0-bef8-ee1f32cc41cd.png">
+<img width="1092" alt="Screen Shot 2022-07-12 at 10 37 57 AM" src="https://user-images.githubusercontent.com/102834324/191054389-a3277a35-0863-4d81-b125-a3bc4f7fbec0.png">
 
-In the project directory, you can run:
+### User Stories 
+ As a user I would like to be able to sign in, and be able to navigate easily throughout the web-store. Also I would like to be able to add the t-shirts I like to my cart. I would also like to leave, edit, and delete comments on the t-shirts design that I enjoyed. In my cart I want the sum of the t-shirts to be given.
+ 
+ ### Technologies Used
+ Python, Django, Javascript, React.JS, Bulma, HTML, CSS.
+ 
+ ### Goals
+ Have a landing page where user can easily navigate to their next decision. Nav bar that is fixed to the top of the screen.  Have users where, their carts are saved, items can be put and taken out of your cart . Comments can be made, edited, and deleted on t-shirts. Give the subtotal of the t-shirts in the cart, and a carts page where it displays all the item’s in your cart.
+ 
+ ### Preview
+ ![Screen Shot 2022-07-27 at 11 29 03 AM](https://user-images.githubusercontent.com/102834324/191056649-d4144844-79e2-4189-8a75-f01f73f240cc.png)
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# tclub_web_store_frontend
+ 
+ 
+ ### What's left? 
+ Responsiveness, make the web-store mobile friendly. Have a nice animation in the landing page. Have several pages of t-shirts, and more categorize than t-shirts(like socks). The user can update and delete their profile. Have taxes rate depending on where you live. Dark and light mode to the web-store.  Profile picture for the user. Search Bar to search the design.
